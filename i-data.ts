@@ -1,0 +1,3 @@
+interface IDataGerman {
+    info: string;
+}

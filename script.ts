@@ -1,11 +1,114 @@
 const dataGerman: IDataGerman[] = [
   {
-    info: `<details class="word group">
-<summary>Anforderungen erfüllen</summary>
-
-<p class="text">Er erfüllt alle Anforderungen für den Job. <span>(Die Person kann alles, was nötig ist.) </span></p>
-
-</details>`,
+    info: '<details class="word group"> <summary>eingefallen</summary><br> <p class="text">Mir ist plötzlich eine gute Idee eingefallen. <span>(Etwas kommt einem in den Sinn.)</span></p> </details>',
+  },
+  {
+    info: '<details class="word group"> <summary>Sport treiben</summary><br> <p class="text">Viele Menschen treiben regelmäßig Sport, um gesund zu bleiben. <span>(Sport machen; sich körperlich betätigen.)</span></p> </details>',
+  },
+  {
+    info: '<details class="word group"> <summary>sich fit fühlen</summary><br> <p class="text">Nach dem Joggen fühle ich mich richtig fit. <span>(Gesund und voller Energie sein.)</span></p> </details>',
+  },
+  {
+    info: '<details class="word group"> <summary>Erfolg im Beruf haben</summary><br> <p class="text">Sie möchte später viel Erfolg im Beruf haben. <span>(Im Job gute Leistungen bringen und anerkannt werden.)</span></p> </details>',
+  },
+  {
+    info: '<details class="word group"> <summary>viel Geld verdienen</summary><br> <p class="text">Er möchte später viel Geld verdienen. <span>(Ein hohes Einkommen haben.)</span></p> </details>',
+  },
+  {
+    info: '<details class="word group"> <summary>Graffiti sprühen</summary><br> <p class="text">Manche Jugendliche sprühen Graffiti an Wände. <span>(Mit Spraydosen Bilder oder Schriftzüge auf Wände malen.)</span></p> </details>',
+  },
+  {
+    info: '<details class="word group"> <summary>sich beziehen auf</summary><br> <p class="text">Ich beziehe mich auf Ihren Brief vom 10. Juni. <span>(Etwas erwähnen oder darauf verweisen.)</span></p> </details>',
+  },
+  {
+    info: '<details class="word group"> <summary>zur Diskussion stehen</summary><br> <p class="text">Das neue Gesetz steht zur Diskussion. <span>(Etwas wird besprochen oder überlegt.)</span></p> </details>',
+  },
+  {
+    info: '<details class="word group"> <summary>etwas beantragen</summary><br> <p class="text">Er möchte ein Visum beantragen. <span>(Offiziell um etwas bitten oder es verlangen.)</span></p> </details>',
+  },
+  {
+    info: '<details class="word group"> <summary>Kritik üben an</summary><br> <p class="text">Viele Menschen üben Kritik an der Regierung. <span>(Etwas/jemanden negativ bewerten.)</span></p> </details>',
+  },
+  {
+    info: '<details class="word group"> <summary>diskutiert werden</summary><br> <p class="text">Das Thema wird im Parlament diskutiert. <span>(Über etwas sprechen und Meinungen austauschen.)</span></p> </details>',
+  },
+  {
+    info: '<details class="word group"> <summary>zur Anwendung kommen</summary><br> <p class="text">Die neuen Regeln kommen ab sofort zur Anwendung. <span>(Etwas wird benutzt oder umgesetzt.)</span></p> </details>',
+  },
+  {
+    info: '<details class="word group"> <summary>jemanden beeindrucken</summary><br> <p class="text">Seine Rede hat alle beeindruckt. <span>(Einen starken Eindruck auf jemanden machen.)</span></p> </details>',
+  },
+  {
+    info: '<details class="word group"> <summary>jemanden kritisieren</summary><br> <p class="text">Der Chef hat ihn für seine Arbeit kritisiert. <span>(Negativ über jemanden sprechen.)</span></p> </details>',
+  },
+  {
+    info: '<details class="word group"> <summary>angewendet werden</summary><br> <p class="text">Die Methode wird in vielen Schulen angewendet. <span>(Etwas wird benutzt oder eingesetzt.)</span></p> </details>',
+  },
+  {
+    info: '<details class="word group"> <summary>etwas ausdrücken</summary><br> <p class="text">Mit diesem Bild möchte sie ihre Gefühle ausdrücken. <span>(Etwas zeigen oder mitteilen.)</span></p> </details>',
+  },
+  {
+    info: '<details class="word group"> <summary>etwas zum Ausdruck bringen</summary><br> <p class="text">Er bringt seine Meinung klar zum Ausdruck. <span>(Etwas deutlich sagen oder zeigen.)</span></p> </details>',
+  },
+  {
+    info: '<details class="word group"> <summary>einen Antrag stellen auf</summary><br> <p class="text">Sie hat einen Antrag auf Kindergeld gestellt. <span>(Offiziell um etwas bitten.)</span></p> </details>',
+  },
+  {
+    info: '<details class="word group"> <summary>Eindruck machen auf</summary><br> <p class="text">Das große Haus macht Eindruck auf mich. <span>(Etwas/jemand wirkt stark auf jemanden.)</span></p> </details>',
+  },
+  {
+    info: '<details class="word group"> <summary>Bezug nehmen auf</summary><br> <p class="text">Ich nehme Bezug auf Ihre letzte E-Mail. <span>(Etwas erwähnen oder darauf verweisen.)</span></p> </details>',
+  },
+  {
+    info: '<details class="word group"> <summary>sich Mühe geben</summary><br> <p class="text">Er gibt sich viel Mühe in der Schule. <span>(Sich anstrengen; viel tun, um etwas zu schaffen.)</span></p> </details>',
+  },
+  {
+    info: '<details class="word group"> <summary>den Entschluss fassen</summary><br> <p class="text">Sie hat den Entschluss gefasst, ins Ausland zu gehen. <span>(Sich entscheiden, etwas zu tun.)</span></p> </details>',
+  },
+  {
+    info: '<details class="word group"> <summary>Anerkennung finden</summary><br> <p class="text">Seine Arbeit findet viel Anerkennung. <span>(Etwas wird gelobt oder geschätzt.)</span></p> </details>',
+  },
+  {
+    info: '<details class="word group"> <summary>außer Zweifel stehen</summary><br> <p class="text">Es steht außer Zweifel, dass er die Wahrheit sagt. <span>(Etwas ist sicher und klar.)</span></p> </details>',
+  },
+  {
+    info: '<details class="word group"> <summary>in Erfüllung gehen</summary><br> <p class="text">Ihr Wunsch ist in Erfüllung gegangen. <span>(Etwas wird wahr.)</span></p> </details>',
+  },
+  {
+    info: '<details class="word group"> <summary>Einfluss nehmen auf</summary><br> <p class="text">Eltern nehmen Einfluss auf ihre Kinder. <span>(Jemanden oder etwas beeinflussen.)</span></p> </details>',
+  },
+  {
+    info: '<details class="word group"> <summary>Rücksicht nehmen auf</summary><br> <p class="text">Bitte nehmen Sie Rücksicht auf andere Fahrgäste. <span>(Auf andere achten; respektvoll sein.)</span></p> </details>',
+  },
+  {
+    info: '<details class="word group"> <summary>auf der linken Seite</summary><br> <p class="text">Die Apotheke ist auf der linken Seite der Straße. <span>(Links von etwas.)</span></p> </details>',
+  },
+  {
+    info: '<details class="word group"> <summary>auf der rechten Seite</summary><br> <p class="text">Das Café ist auf der rechten Seite. <span>(Rechts von etwas.)</span></p> </details>',
+  },
+  {
+    info: '<details class="word group"> <summary>computerspielsüchtig</summary><br> <p class="text">Er ist computerspielsüchtig und spielt den ganzen Tag. <span>(Abhängig vom Computerspielen.)</span></p> </details>',
+  },
+  {
+    info: '<details class="word group"> <summary>Alkoholabhängigkeit</summary><br> <p class="text">Alkoholabhängigkeit ist eine schwere Krankheit. <span>(Sucht nach Alkohol.)</span></p> </details>',
+  },
+  {
+    info: '<details class="word group"> <summary>Untersuchungen anstellen</summary><br> <p class="text">Die Polizei stellt Untersuchungen zum Unfall an. <span>(Etwas genau prüfen oder erforschen.)</span></p> </details>',
+  },
+  {
+    info: '<details class="word group"> <summary>in Aufregung versetzen</summary><br> <p class="text">Die Nachricht hat sie in Aufregung versetzt. <span>(Jemanden sehr nervös oder gespannt machen.)</span></p> </details>',
+  },
+  {
+    info: '<details class="word group"> <summary>die Flucht ergreifen</summary><br> <p class="text">Der Dieb hat die Flucht ergriffen. <span>(Weglaufen; fliehen.)</span></p> </details>',
+  },
+  {
+    info: '<details class="word group"> <summary>sehr relevant sein</summary><br> <p class="text">Das Thema ist für die Prüfung sehr relevant. <span>(Sehr wichtig sein.)</span></p> </details>',
+  },
+  {
+    info: '<details class="word group"> <summary>in Betracht kommen</summary><br> <p class="text">Für die Stelle kommen viele Bewerber in Betracht. <span>(Etwas/jemand ist möglich oder geeignet.)</span></p> </details>',
+  },
+  {
+    info: `<details class="word group"> <summary>Anforderungen erfüllen</summary><br> <p class="text">Er erfüllt alle Anforderungen für den Job. <span>(Die Person kann alles, was nötig ist.) </span></p> </details>`,
   },
   {
     info: `<details class="word group"> <summary>jemanden fest anstellen</summary><br> <p class="text">Die Firma möchte ihn fest anstellen. <span>(Jemand bekommt einen dauerhaften Arbeitsvertrag.) </span></p> </details>`,
@@ -131,11 +234,4 @@ const getDataGerman = () => {
   example.innerHTML = dataGerman[randomNum].info;
 };
 
-const focusOnTextarea = () => {
-  const textarea: HTMLTextAreaElement | any =
-    document.querySelector("textarea");
-  textarea.focus();
-};
-
 btn.addEventListener("click", getDataGerman);
-btn.addEventListener("click", focusOnTextarea);

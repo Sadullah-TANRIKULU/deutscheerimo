@@ -41,6 +41,7 @@ body {
 }
 
 .sec2-1 {
+  font-family: "Kanit", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;

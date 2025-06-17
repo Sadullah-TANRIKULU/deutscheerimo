@@ -254,6 +254,9 @@ if ("serviceWorker" in navigator) {
 
 const btn: HTMLElement | any = document.querySelector("button");
 const example: HTMLElement | any = document.querySelector("p");
+const beispielanzahl: HTMLElement | any = document.querySelector(".beispielanzahl");
+
+beispielanzahl.innerHTML = `die Anzahl der Beispiele : ${dataGerman.length}`;
 
 const getDataGerman = () => {
   const dataGermanLength: number = dataGerman.length;

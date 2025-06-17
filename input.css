@@ -35,10 +35,18 @@ body {
 }
 
 .sec2 {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+}
+
+.beispielanzahl {
+  position: fixed;
+  top: 0;
+  right: 0;
 }
 
 .sec2-1 {

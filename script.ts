@@ -54,13 +54,25 @@ const dataGerman: IDataGerman[] = [
     info: '<details class="word group"> <summary>einen Antrag stellen auf</summary><br> <p class="text">Sie hat einen Antrag auf Kindergeld gestellt. <span>(Offiziell um etwas bitten.)</span></p> </details>',
   },
   {
+    info: '<details class="word group"> <summary>in Schutz nehmen vor</summary><br> <p class="text">Das war nicht in Ordnung, aber du nimmst ihn wieder vor mir in Schutz! <span>((be)schützen, verteidigen)</span></p> </details>',
+  },
+  {
     info: '<details class="word group"> <summary>Eindruck machen auf</summary><br> <p class="text">Das große Haus macht Eindruck auf mich. <span>(Etwas/jemand wirkt stark auf jemanden.)</span></p> </details>',
+  },
+  {
+    info: '<details class="word group"> <summary>sich Gedanken machen über</summary><br> <p class="text">Ich mache mir viele Gedanken über Internetsucht. <span>(nachdenken)</span></p> </details>',
+  },
+  {
+    info: '<details class="word group"> <summary>interesse wecken für</summary><br> <p class="text">Das interesse an der Wissenschaft sollte bei Kindern schon früh geweckt werden <span>(jemand interessieren für)</span></p> </details>',
   },
   {
     info: '<details class="word group"> <summary>Bezug nehmen auf</summary><br> <p class="text">Ich nehme Bezug auf Ihre letzte E-Mail. <span>(Etwas erwähnen oder darauf verweisen.)</span></p> </details>',
   },
   {
     info: '<details class="word group"> <summary>sich Mühe geben</summary><br> <p class="text">Er gibt sich viel Mühe in der Schule. <span>(Sich anstrengen; viel tun, um etwas zu schaffen.)</span></p> </details>',
+  },
+  {
+    info: '<details class="word group"> <summary>eine Verabredung treffen zu/mit</summary><br> <p class="text">Welche internen Verabredungen zum Vertrag wurden denn mit Ihnen getroffen? <span>(etwas vereinbaren)</span></p> </details>',
   },
   {
     info: '<details class="word group"> <summary>den Entschluss fassen</summary><br> <p class="text">Sie hat den Entschluss gefasst, ins Ausland zu gehen. <span>(Sich entscheiden, etwas zu tun.)</span></p> </details>',
@@ -103,6 +115,9 @@ const dataGerman: IDataGerman[] = [
   },
   {
     info: '<details class="word group"> <summary>sehr relevant sein</summary><br> <p class="text">Das Thema ist für die Prüfung sehr relevant. <span>(Sehr wichtig sein.)</span></p> </details>',
+  },
+  {
+    info: '<details class="word group"> <summary>sich in Acht nehmen vor</summary><br> <p class="text">Vor manchen Menschen sollte man sich in Acht nehmen. <span>(aufpassen, vorsichtig sein)</span></p> </details>',
   },
   {
     info: '<details class="word group"> <summary>in Betracht kommen</summary><br> <p class="text">Für die Stelle kommen viele Bewerber in Betracht. <span>(Etwas/jemand ist möglich oder geeignet.)</span></p> </details>',
@@ -156,6 +171,9 @@ const dataGerman: IDataGerman[] = [
     info: `<details class="word group"> <summary>hektisch werden</summary><br> <p class="text">Vor dem Termin werde ich hektisch. <span>(Ich werde plötzlich gestresst und schnell.) </span></p> </details>`,
   },
   {
+    info: `<details class="word group"> <summary>in der Lage sein zu</summary><br> <p class="text">Wir sind alle in der Lage, etwas für die Gesellschaft zu tun. <span>(können, fähig sein) </span></p> </details>`,
+  },
+  {
     info: `<details class="word group"> <summary>in die Mitarbeiter investieren</summary><br> <p class="text">Die Firma investiert viel in die Mitarbeiter. <span>(Geld oder Zeit für Angestellte geben.) </span></p> </details>`,
   },
   {
@@ -180,6 +198,9 @@ const dataGerman: IDataGerman[] = [
     info: `<details class="word group"> <summary>übersichtlich</summary><br> <p class="text">Die Tabelle ist sehr übersichtlich. <span>(Man kann alles gut erkennen.) </span></p> </details>`,
   },
   {
+    info: `<details class="word group"> <summary>in Schwierigkeiten geraten</summary><br> <p class="text">Durch die plötzlichen Ausgaben ist das Unternehmen in Schwierigkeiten geraten. <span>(Probleme bekommen) </span></p> </details>`,
+  },
+  {
     info: `<details class="word group"> <summary>vernünftig</summary><br> <p class="text">Das ist eine vernünftige Entscheidung. <span>(Es ist logisch und sinnvoll.) </span></p> </details>`,
   },
   {
@@ -187,6 +208,9 @@ const dataGerman: IDataGerman[] = [
   },
   {
     info: `<details class="word group"> <summary>zielorientiert</summary><br> <p class="text">Sie arbeitet sehr zielorientiert. <span>(Sie arbeitet immer auf ein Ziel hin.) </span></p> </details>`,
+  },
+  {
+    info: `<details class="word group"> <summary>einen Kompromiss schliessen</summary><br> <p class="text">Nach langen Verhandlungen konnten die Parteien endlich einen Kompromiss schließen. <span>(Zwei oder mehr Personen haben unterschiedliche Meinungen oder Wünsche. Sie sprechen miteinander und einigen sich am Ende. ) </span></p> </details>`,
   },
   {
     info: `<details class="word group"> <summary>teamfähig</summary><br> <p class="text">Er ist sehr teamfähig. <span>(Er kann gut im Team arbeiten.) </span></p> </details>`,
@@ -215,6 +239,9 @@ const dataGerman: IDataGerman[] = [
   },
   {
     info: `<details class="word group"> <summary>einbringen in</summary><br> <p class="text">Ich bringe meine Ideen ins Team ein. <span>(Ich gebe etwas zu einer Gruppe dazu.) </span></p> </details>`,
+  },
+  {
+    info: `<details class="word group"> <summary>Stellung nehmen zu</summary><br> <p class="text">Ich möchte dazu kurz Stellung nehmen <span>(seine Meinung äussern) </span></p> </details>`,
   },
 ];
 

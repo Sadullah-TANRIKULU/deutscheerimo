@@ -254,7 +254,7 @@ if ("serviceWorker" in navigator) {
 const btn = document.querySelector("button");
 const example = document.querySelector("p");
 const beispielanzahl = document.querySelector(".beispielanzahl");
-beispielanzahl.innerHTML = `die Anzahl der Beispiele : ${dataGerman.length}`;
+beispielanzahl.innerHTML = `${dataGerman.length} : die Anzahl der Beispiele `;
 const getDataGerman = () => {
     const dataGermanLength = dataGerman.length;
     const randomNum = Math.floor(Math.random() * dataGermanLength);
